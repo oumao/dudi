@@ -42,7 +42,7 @@ Navigation Bar
   padding-right:15px;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
@@ -120,7 +120,7 @@ MAIN SECTION
 main .text-position{
   position: absolute;
   top: 45%;
-  left: 9%;
+  left: 15%;
   color: white;
   font-size: 5em;
   font-weight: bold;
@@ -141,9 +141,9 @@ ABOUT SECTION
  */
 #aboutus{
   position: relative;
-  top: 2.5em;
+  top: .6em;
   padding: 10px 0;
-  height: 60vh;
+  height: 70vh;
   text-align: center;
 }
 
@@ -189,7 +189,7 @@ OBJECTIVES SECTION
  */
  #objectives{
   position: relative;
-  top: 10em;
+  top: 7em;
   height: 80vh;
   background: #6c8f32;
 }
@@ -197,7 +197,7 @@ OBJECTIVES SECTION
 #objectives h1{
   position: relative;
   top: .9em;
-  padding-top: 90px;
+  padding-top: 60px;
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
@@ -222,7 +222,7 @@ LOCATION SECTION
  */
  #location{
   position: relative;
-  top: 10em;
+  top: 6em;
   background: whitesmoke;
   text-align: center;
 }
@@ -230,7 +230,7 @@ LOCATION SECTION
 #location h1{
   position: relative;
   top: .9em;
-  padding-top: 90px;
+  padding-top: 80px;
   font-size: 2.5em;
   font-weight: bold;
   color: #558303;
@@ -279,13 +279,14 @@ CONTACT SECTION
  */
  #contact {
   position: relative;
-  top: 8em;
+  top: 3em;
   height: 100vh;
 }
 
 #contact  h1{
   position: relative;
   top: .9em;
+  padding-top: 90px;
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
