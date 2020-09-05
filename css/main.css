@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
 }
-.bdy {
+.body {
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -38,8 +38,8 @@ Navigation Bar
 
 .navbar-nav .nav-item .nav-link {
   color: #558303;
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:15px;
+  padding-right:15px;
   margin-left: 10px;
   margin-right: 10px;
   font-size: 1.1em;
@@ -59,7 +59,7 @@ Navigation Bar
 }
 
 .navbar-nav li:hover > .dropdown-menu .dropdown-item {
-  font-size: 1.1em;
+  font-size: .9em;
   font-weight: bold;
   color: #558303;
 }
@@ -95,7 +95,7 @@ Navigation Bar
 }
 
 .shrink .navbar-nav li:hover > .dropdown-menu .dropdown-item {
-  font-size: 1.1em;
+  font-size: .9em;
   font-weight: bold;
   color: #ffffff;
 }
@@ -119,11 +119,19 @@ MAIN SECTION
 
 main .text-position{
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 9%;
   color: white;
   font-size: 6em;
   font-weight: bold;
+}
+
+main .moto{
+  color: #EEF467;
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /*
@@ -134,26 +142,39 @@ ABOUT SECTION
 #aboutus{
   position: relative;
   top: 2.5em;
-  padding: 60px 0;
+  padding: 30px 0;
   height: 60vh;
   text-align: center;
 }
 
 
 #aboutus h1{
-  position: relative;
-  bottom: 1em;
+  padding-top: 70px;
   font-size: 2.5em;
   font-weight: bold;
   color: #558303;
+}
+
+#aboutus .fa-tree{
+  color: #6c8f32;
 }
 
 #aboutus p{
   font-size: 1.5em;
 }
 
-.aboutus-left{
+#aboutus .aboutus-left{
   padding: 20px 0 20px 0;
+  text-align: left;
+}
+
+#aboutus .aboutus-left h3{
+  color: #558303;
+  font-size: 1.6em;
+}
+
+#aboutus .aboutus-left p{
+  font-size: 1.3em;
 }
 /*
 ===============================================================
@@ -169,16 +190,23 @@ OBJECTIVES SECTION
  #objectives{
   position: relative;
   top: 10em;
-  height: 70vh;
+  height: 80vh;
   background: #6c8f32;
 }
 
 #objectives h1{
   position: relative;
   top: .9em;
+  padding-top: 90px;
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
+  color: #ffffff;
+}
+
+#objectives .container{
+  position: relative;
+  top: 15%;
   color: #ffffff;
 }
  /*
@@ -195,18 +223,24 @@ LOCATION SECTION
  #location{
   position: relative;
   top: 10em;
-  height: 100vh;
   background: whitesmoke;
+  text-align: center;
 }
 
 #location h1{
   position: relative;
   top: .9em;
-  text-align: center;
+  padding-top: 90px;
   font-size: 2.5em;
   font-weight: bold;
   color: #558303;
 }
+
+#map iframe{
+  height: 400px;
+  width: 90%;
+}
+
  /*
  ==============================================================
  END LOCATION SECTION
@@ -243,13 +277,13 @@ TEAM SECTION
 CONTACT SECTION
 ==============================================================
  */
- #contact{
+ #contact {
   position: relative;
   top: 10em;
   height: 100vh;
 }
 
-#contact h1{
+#contact  h1{
   position: relative;
   top: .9em;
   text-align: center;
@@ -262,81 +296,67 @@ CONTACT SECTION
  END CONTACT SECTION
  ==============================================================
 */
+#mu-footer {
+  background-color: #6c8f32;
+  display: inline;
+  float: left;
+  padding: 50px 0;
+  width: 100%;
+}
+#mu-footer .mu-footer-area {
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+#mu-footer .mu-footer-area .mu-footer-social {
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#mu-footer .mu-footer-area .mu-footer-social a {
+  background-color: #6c8f32;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.7em;
+  height: 40px;
+  line-height: 32px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 50px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#mu-footer .mu-footer-area .mu-footer-social a:hover {
+  background: #fff;
+  color: #6c8f32;
+}
+
+#mu-footer .mu-footer-area .mu-footer-copyright {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-footer .mu-footer-area .mu-footer-copyright p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
 
 /*
 ==============================================
 FOOTER section
 ==============================================
  */
-section {
-padding: 60px 0;
-position: relative;
-top: 2em;
-}
 
-section .section-title {
-text-align: center;
-color: #007b5e;
-margin-bottom: 50px;
-text-transform: uppercase;
-}
-
-
-#footer {
-  background: #356211 !important;
-}
-#footer h5 {
-  padding-left: 10px;
-  border-left: 3px solid #eeeeee;
-  padding-bottom: 6px;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-#footer a {
-  color: #ffffff;
-  text-decoration: none !important;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-#footer ul.social li {
-  padding: 3px 0;
-}
-#footer ul.social li a i {
-  margin-right: 5px;
-  font-size: 25px;
-  -webkit-transition: 0.5s all ease;
-  -moz-transition: 0.5s all ease;
-  transition: 0.5s all ease;
-}
-#footer ul.social li:hover a i {
-  font-size: 30px;
-  margin-top: -10px;
-}
-#footer ul.social li a,
-#footer ul.quick-links li a {
-  color: #ffffff;
-}
-#footer ul.social li a:hover {
-  color: #eeeeee;
-}
-#footer ul.quick-links li {
-  padding: 3px 0;
-  -webkit-transition: 0.5s all ease;
-  -moz-transition: 0.5s all ease;
-  transition: 0.5s all ease;
-}
-#footer ul.quick-links li:hover {
-  padding: 3px 0;
-  margin-left: 5px;
-  font-weight: 700;
-  cursor: pointer;
-}
-#footer ul.quick-links li a i {
-  margin-right: 5px;
-}
-#footer ul.quick-links li:hover a i {
-  font-weight: 700;
-}
 /*
 ==============================================================================
 END FOOTER section
@@ -350,10 +370,5 @@ MEDIA QUERIES
 ==============================================================================
  */
 @media (max-width: 767px) {
-  #footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-  }
+
 }
