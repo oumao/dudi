@@ -252,19 +252,26 @@ LOCATION SECTION
 TEAM SECTION
 ==============================================================
  */
- #team{
+ #donors{
   position: relative;
   top: 10em;
   height: 100vh;
 }
 
-#team h1{
+#donors h1{
   position: relative;
   top: .9em;
+  padding-top: 90px;
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
   color: #558303;
+}
+
+#donors .container{
+  position: relative;
+  top: 8em;
+  left: 5em;
 }
  /*
  ==============================================================
