@@ -249,13 +249,13 @@ LOCATION SECTION
 
 /*
 ==============================================================
-TEAM SECTION
+DONORS SECTION
 ==============================================================
  */
  #donors{
   position: relative;
   top: 10em;
-  height: 100vh;
+  height: 40vh;
 }
 
 #donors h1{
@@ -275,7 +275,44 @@ TEAM SECTION
 }
  /*
  ==============================================================
- END TEAM SECTION
+ END DONORS SECTION
+ ==============================================================
+*/
+
+/*
+==============================================================
+PROJECTS SECTION
+==============================================================
+ */
+ #projects{
+  position: relative;
+  top: 10em;
+  height: 100vh;
+}
+
+#projects h1{
+  position: relative;
+  top: .9em;
+  padding-top: 90px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #558303;
+}
+
+#projects .container{
+  position: relative;
+  top: 8em;
+  left: 1.2em;
+}
+
+#projects .container .row .col-md-4 img{
+  height: 300px;
+  width: 400px;
+}
+ /*
+ ==============================================================
+ END PROJECTS SECTION
  ==============================================================
 */
 
