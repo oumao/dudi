@@ -1,3 +1,11 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
   speed: -2;
@@ -5,12 +13,12 @@ html {
 }
 
 
-*{
-  margin: 0;
-  padding: 0;
-}
-.body {
-  font-family: "Fira Sans", sans-serif;
+body {
+  font-family: "Roboto Mono", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
 
 
@@ -125,14 +133,14 @@ main .text-position{
   top: 45%;
   left: 15%;
   color: white;
-  font-size: 5em;
+  font-size: 4.5em;
   font-weight: bold;
 }
 
 main .moto{
   color: #EEF467;
   text-align: center;
-  font-size: 0.4em;
+  font-size: 0.5em;
   font-weight: bold;
   font-style: italic;
 }
@@ -145,8 +153,9 @@ ABOUT SECTION
 #aboutus{
   position: relative;
   top: .6em;
+  bottom: 1em;
   padding: 10px 0;
-  height: 70vh;
+  height: 100vh;
   text-align: center;
 }
 
@@ -162,10 +171,6 @@ ABOUT SECTION
   color: #6c8f32;
 }
 
-#aboutus p{
-  font-size: 1.5em;
-}
-
 #aboutus .aboutus-left{
   padding: 20px 0 20px 0;
   text-align: left;
@@ -173,11 +178,11 @@ ABOUT SECTION
 
 #aboutus .aboutus-left h3{
   color: #558303;
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 #aboutus .aboutus-left p{
-  font-size: 1.3em;
+  font-size: 1em;
 }
 /*
 ===============================================================
@@ -193,13 +198,13 @@ OBJECTIVES SECTION
  #objectives{
   position: relative;
   top: 7em;
-  height: 90vh;
+  height: 125vh;
   background: #6c8f32;
 }
 
 #objectives h1{
   position: relative;
-  top: .9em;
+  top: .8em;
   padding-top: 60px;
   text-align: center;
   font-size: 2.5em;
@@ -209,8 +214,14 @@ OBJECTIVES SECTION
 
 #objectives .container{
   position: relative;
-  top: 15%;
+  top: 5%;
   color: #ffffff;
+}
+
+#objectives .card{
+  background: #6c8f32;
+  border: 1px solid #ffffff;
+  height: 13em;
 }
  /*
  ==============================================================
@@ -258,7 +269,7 @@ DONORS SECTION
  #donors{
   position: relative;
   top: 10em;
-  height: 40vh;
+  height: 60vh;
 }
 
 #donors h1{
@@ -276,9 +287,143 @@ DONORS SECTION
   top: 8em;
   left: 5em;
 }
+
+
  /*
  ==============================================================
  END DONORS SECTION
+ ==============================================================
+*/
+
+/*
+==============================================================
+TEAM SECTION
+==============================================================
+ */
+
+
+
+
+ .row.heading h2 {
+     color: #fff;
+     font-size: 52.52px;
+     line-height: 95px;
+     font-weight: 400;
+     text-align: center;
+     margin: 0 0 40px;
+     padding-bottom: 20px;
+     text-transform: uppercase;
+ }
+ ul{
+   margin:0;
+   padding:0;
+   list-style:none;
+ }
+ .heading.heading-icon {
+     display: block;
+ }
+ .padding-lg {
+ 	display: block;
+ 	padding-top: 60px;
+ 	padding-bottom: 60px;
+ }
+ .practice-area.padding-lg {
+     padding-bottom: 55px;
+     padding-top: 55px;
+ }
+ .practice-area .inner{
+      border:1px solid #999999;
+ 	 text-align:center;
+ 	 margin-bottom:28px;
+ 	 padding:40px 25px;
+ }
+ .our-webcoderskull .cnt-block:hover {
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+     border: 0;
+ }
+ .practice-area .inner h3{
+     color:#3c3c3c;
+ 	font-size:24px;
+ 	font-weight:500;
+ 	font-family: 'Poppins', sans-serif;
+ 	padding: 10px 0;
+ }
+ .practice-area .inner p{
+     font-size:14px;
+ 	line-height:22px;
+ 	font-weight:400;
+ }
+ .practice-area .inner img{
+ 	display:inline-block;
+ }
+
+
+ .our-webcoderskull{
+   background: #6c8f32;
+   position: relative;
+   top: 7em;
+
+ }
+ .our-webcoderskull .cnt-block{
+    float:left;
+    width:100%;
+    background:#fff;
+    padding:30px 20px;
+    text-align:center;
+    border:2px solid #d5d5d5;
+    margin: 0 0 28px;
+ }
+ .our-webcoderskull .cnt-block figure{
+    width:148px;
+    height:148px;
+    border-radius:100%;
+    display:inline-block;
+    margin-bottom: 15px;
+ }
+ .our-webcoderskull .cnt-block img{
+    width:148px;
+    height:148px;
+    border-radius:100%;
+ }
+ .our-webcoderskull .cnt-block h3{
+    color:#2a2a2a;
+    font-size:20px;
+    font-weight:500;
+    padding:6px 0;
+    text-transform:uppercase;
+ }
+ .our-webcoderskull .cnt-block h3 a{
+   text-decoration:none;
+ 	color:#2a2a2a;
+ }
+ .our-webcoderskull .cnt-block h3 a:hover{
+ 	color:#337ab7;
+ }
+ .our-webcoderskull .cnt-block p{
+    color:#2a2a2a;
+    font-size:13px;
+    line-height:20px;
+    font-weight:400;
+ }
+ .our-webcoderskull .cnt-block .follow-us{
+ 	margin:20px 0 0;
+ }
+ .our-webcoderskull .cnt-block .follow-us li{
+     display:inline-block;
+ 	width:auto;
+ 	margin:0 5px;
+ }
+ .our-webcoderskull .cnt-block .follow-us li .fa{
+    font-size:24px;
+    color:#767676;
+ }
+ .our-webcoderskull .cnt-block .follow-us li .fa:hover{
+    color:#025a8e;
+ }
+
+ /*
+ ==============================================================
+ END TEAM SECTION
  ==============================================================
 */
 
