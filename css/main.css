@@ -214,7 +214,7 @@ OBJECTIVES SECTION
 
 #objectives .container{
   position: relative;
-  top: 3%;
+  top: 5%;
   color: #ffffff;
 }
 
@@ -237,6 +237,7 @@ LOCATION SECTION
  #location{
   position: relative;
   top: 6em;
+  bottom: 7em;
   background: whitesmoke;
   text-align: center;
 }
@@ -301,10 +302,10 @@ TEAM SECTION
 ==============================================================
  */
 
-#team{
+/* #team{
   position: relative;
   top: 5%;
-}
+} */
 
 
 
@@ -315,7 +316,7 @@ TEAM SECTION
      font-weight: 400;
      text-align: center;
      margin: 0 0 40px;
-     padding:60px 0 20px 0;
+     padding:40px 0 20px 0;
      text-transform: uppercase;
  }
  ul{
@@ -333,7 +334,7 @@ TEAM SECTION
  }
  .practice-area.padding-lg {
      padding-bottom: 55px;
-     padding-top: 55px;
+     /* padding-top: 45px; */
  }
  .practice-area .inner{
       border:1px solid #999999;
@@ -372,7 +373,7 @@ TEAM SECTION
     float:left;
     width:100%;
     background:#fff;
-    padding:30px 20px;
+    padding:20px 10px;
     text-align:center;
     border:2px solid #d5d5d5;
     margin: 0 0 28px;
