@@ -27,8 +27,12 @@ body {
 Navigation Bar
 =====================================================
 */
-.nav_b {
-  background: #ffffff;
+.top-nav{
+  height: 100px;
+  width: 100%;
+}
+
+.nav_b{
   margin-top: 0;
 }
 
@@ -36,15 +40,15 @@ Navigation Bar
     margin-top: 0;
     padding: 0;
     position: relative;
-    width: 170px;
-    height: 110px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .navbar-brand img{
-    max-height: 100%;
+  padding-top: 10px;
+  width: 200px;
+  height: 100px;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -347,7 +351,7 @@ TEAM SECTION
      border: 0;
  }
  .practice-area .inner h3{
-     color:#3c3c3c;
+  color:#3c3c3c;
  	font-size:24px;
  	font-weight:500;
  	font-family: 'Poppins', sans-serif;
