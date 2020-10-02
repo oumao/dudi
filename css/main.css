@@ -47,7 +47,7 @@ Navigation Bar
 
 .navbar-brand img{
   padding-top: 10px;
-  width: 200px;
+  width: 150px;
   height: 100px;
 }
 
@@ -156,7 +156,7 @@ ABOUT SECTION
  */
 #aboutus{
   position: relative;
-  top: .6em;
+  top: 0.6em;
   bottom: 1em;
   padding: 10px 0;
   height: 100vh;
@@ -165,7 +165,7 @@ ABOUT SECTION
 
 
 #aboutus h1{
-  padding-top: 100px;
+  padding-top: 3.5em;
   font-size: 2.5em;
   font-weight: bold;
   color: #558303;
@@ -209,7 +209,7 @@ OBJECTIVES SECTION
 #objectives h1{
   position: relative;
   top: .8em;
-  padding-top: 80px;
+  padding-top: 90px;
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
@@ -1382,5 +1382,591 @@ ul{
   letter-spacing: 0.5px;
   color: #fff;
 }
+
+}
+
+
+/*
+======================================================
+Bigger Screen Media QUERIES
+======================================================
+
+ */
+
+@media (min-width: 960px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    speed: -2;
+    transition: 2s;
+  }
+
+
+  body {
+    font-family: "Roboto Mono", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+
+
+  /*
+  =====================================================
+  Navigation Bar
+  =====================================================
+  */
+  .top-nav{
+    height: 100px;
+    width: 100%;
+  }
+
+  .nav_b{
+    margin-top: 0;
+  }
+
+  .navbar .navbar-brand {
+      margin-top: 0;
+      padding: 0;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  .navbar-brand img{
+    padding-top: 10px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: #558303;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: .9em;
+    font-weight: bold;
+  }
+
+  .navbar-nav .nav-item.active .nav-link,
+  .navbar-nav .nav-item:hover .nav-link {
+    color: #ffffff ;
+    background: #558303;
+    border-radius: 8px;
+    transition: all 0.5s;
+  }
+
+  .navbar-nav li:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-nav li:hover > .dropdown-menu .dropdown-item {
+    font-size: .9em;
+    font-weight: bold;
+    color: #558303;
+  }
+
+  .navbar-nav li:hover > .dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+    background: #558303;
+    background-size: contain;
+  }
+
+  .shrink {
+     padding-top: 0;
+     padding-bottom: 0;
+     background: #6c8f32;
+  }
+
+  .shrink .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+  }
+
+  .shrink .navbar-nav .nav-item.active .nav-link,
+  .navbar-nav .nav-item:hover .nav-link {
+    color: #558303;
+    background: #ffffff;
+    border-radius: 8px;
+    transition: all 0.5s;
+  }
+
+  .shrink .navbar-nav li:hover > .dropdown-menu {
+    display: block;
+    background: #558303;
+    color: #ffffff;
+  }
+
+  .shrink .navbar-nav li:hover > .dropdown-menu .dropdown-item {
+    font-size: .9em;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .shrink .navbar-nav li:hover > .dropdown-menu .dropdown-item:hover {
+    color: #558303;
+    background: #ffffff;
+    background-size: contain;
+  }
+  /*
+  =====================================================
+  End of Navigation Bar
+  =====================================================
+  */
+
+  /*
+  =============================================================
+  MAIN SECTION
+  =============================================================
+   */
+
+  main .text-position{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: white;
+    font-size: 4.5em;
+    font-weight: bold;
+  }
+
+  main .moto{
+    color: #EEF467;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /*
+  ===============================================
+  ABOUT SECTION
+  ===============================================
+   */
+  #aboutus{
+    position: relative;
+    top: 0.6em;
+    bottom: 1em;
+    padding: 10px 0;
+    height: 100vh;
+    text-align: center;
+  }
+
+
+  #aboutus h1{
+    padding-top: 3.5em;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #558303;
+  }
+
+  #aboutus .fa-tree{
+    color: #6c8f32;
+  }
+
+  #aboutus .aboutus-left{
+    padding: 20px 0 20px 0;
+    text-align: left;
+  }
+
+  #aboutus .aboutus-left h3{
+    color: #558303;
+    font-size: 1.4em;
+  }
+
+  #aboutus .aboutus-left p{
+    font-size: 1em;
+  }
+  /*
+  ===============================================================
+  END ABOUT SECTION
+  ===============================================================
+   */
+
+  /*
+  ==============================================================
+  OBJECTIVES SECTION
+  ==============================================================
+   */
+   #objectives{
+    position: relative;
+    top: 7em;
+    height: 125vh;
+    background: #6c8f32;
+  }
+
+  #objectives h1{
+    position: relative;
+    top: .8em;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  #objectives .container{
+    position: relative;
+    top: 5%;
+    color: #ffffff;
+  }
+
+  #objectives .card{
+    background: #6c8f32;
+    border: 1px solid #ffffff;
+    height: 13em;
+  }
+   /*
+   ==============================================================
+   END OBJECTIVES SECTION
+   ==============================================================
+  */
+
+  /*
+  ==============================================================
+  LOCATION SECTION
+  ==============================================================
+   */
+   #location{
+    position: relative;
+    top: 6em;
+    bottom: 7em;
+    background: whitesmoke;
+    text-align: center;
+  }
+
+  #location h1{
+    position: relative;
+    top: .9em;
+    padding-top: 80px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #558303;
+  }
+
+  #map iframe{
+    height: 400px;
+    width: 90%;
+  }
+
+   /*
+   ==============================================================
+   END LOCATION SECTION
+   ==============================================================
+  */
+
+  /*
+  ==============================================================
+  DONORS SECTION
+  ==============================================================
+   */
+   #donors{
+    position: relative;
+    top: 8em;
+    height: 80vh;
+  }
+
+  #donors h1{
+    position: relative;
+    top: .9em;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #558303;
+  }
+
+  #donors .container{
+    position: relative;
+    top: 30%;
+    left: 25%;
+  }
+
+
+   /*
+   ==============================================================
+   END DONORS SECTION
+   ==============================================================
+  */
+
+  /*
+  ==============================================================
+  TEAM SECTION
+  ==============================================================
+   */
+
+  /* #team{
+    position: relative;
+    top: 5%;
+  } */
+
+
+
+   .row.heading h2 {
+       color: #fff;
+       font-size: 52.52px;
+       line-height: 95px;
+       font-weight: 400;
+       text-align: center;
+       margin: 0 0 40px;
+       padding:40px 0 20px 0;
+       text-transform: uppercase;
+   }
+   ul{
+     margin:0;
+     padding:0;
+     list-style:none;
+   }
+   .heading.heading-icon {
+       display: block;
+   }
+   .padding-lg {
+   	display: block;
+   	padding-top: 60px;
+   	padding-bottom: 60px;
+   }
+   .practice-area.padding-lg {
+       padding-bottom: 55px;
+       /* padding-top: 45px; */
+   }
+   .practice-area .inner{
+        border:1px solid #999999;
+   	 text-align:center;
+   	 margin-bottom:28px;
+   	 padding:40px 25px;
+   }
+   .our-webcoderskull .cnt-block:hover {
+       box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+       border: 0;
+   }
+   .practice-area .inner h3{
+    color:#3c3c3c;
+   	font-size:24px;
+   	font-weight:500;
+   	font-family: 'Poppins', sans-serif;
+   	padding: 10px 0;
+   }
+   .practice-area .inner p{
+       font-size:14px;
+   	line-height:22px;
+   	font-weight:400;
+   }
+   .practice-area .inner img{
+   	display:inline-block;
+   }
+
+
+   .our-webcoderskull{
+     background: #6c8f32;
+     position: relative;
+     top: 7em;
+
+   }
+   .our-webcoderskull .cnt-block{
+      float:left;
+      width:100%;
+      background:#fff;
+      padding:20px 10px;
+      text-align:center;
+      border:2px solid #d5d5d5;
+      margin: 0 0 28px;
+   }
+   .our-webcoderskull .cnt-block figure{
+      width:148px;
+      height:148px;
+      border-radius:100%;
+      display:inline-block;
+      margin-bottom: 15px;
+   }
+   .our-webcoderskull .cnt-block img{
+      width:148px;
+      height:148px;
+      border-radius:100%;
+   }
+   .our-webcoderskull .cnt-block h3{
+      color:#2a2a2a;
+      font-size:20px;
+      font-weight:500;
+      padding:6px 0;
+      text-transform:uppercase;
+   }
+   .our-webcoderskull .cnt-block h3 a{
+     text-decoration:none;
+   	color:#2a2a2a;
+   }
+   .our-webcoderskull .cnt-block h3 a:hover{
+   	color:#337ab7;
+   }
+   .our-webcoderskull .cnt-block p{
+      color:#2a2a2a;
+      font-size:13px;
+      line-height:20px;
+      font-weight:400;
+   }
+   .our-webcoderskull .cnt-block .follow-us{
+   	margin:20px 0 0;
+   }
+   .our-webcoderskull .cnt-block .follow-us li{
+       display:inline-block;
+   	width:auto;
+   	margin:0 5px;
+   }
+   .our-webcoderskull .cnt-block .follow-us li .fa{
+      font-size:24px;
+      color:#767676;
+   }
+   .our-webcoderskull .cnt-block .follow-us li .fa:hover{
+      color:#025a8e;
+   }
+
+   /*
+   ==============================================================
+   END TEAM SECTION
+   ==============================================================
+  */
+
+  /*
+  ==============================================================
+  PROJECTS SECTION
+  ==============================================================
+   */
+   #projects{
+    position: relative;
+    top: 10em;
+    height: 100vh;
+  }
+
+  #projects h1{
+    position: relative;
+    top: .9em;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #558303;
+  }
+
+  #projects .container{
+    position: relative;
+    top: 8em;
+    left: 1.2em;
+  }
+
+  #projects .container .row .col-md-6 img{
+    height: 300px;
+    width: 350px;
+  }
+   /*
+   ==============================================================
+   END PROJECTS SECTION
+   ==============================================================
+  */
+
+  /*
+  ==============================================================
+  CONTACT SECTION
+  ==============================================================
+   */
+   #contact {
+    position: relative;
+    top: 3em;
+    height: 110vh;
+  }
+
+  #contact  h1{
+    position: relative;
+    top: .5em;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #558303;
+  }
+
+  #mu-contact{
+    position: relative;
+    top: 2%;
+    bottom: 2%;
+  }
+
+   /*
+   ==============================================================
+   END CONTACT SECTION
+   ==============================================================
+  */
+  #mu-footer {
+    background-color: #6c8f32;
+    display: inline;
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+  }
+
+  #tree{
+    padding: 10px;
+    margin: auto;
+    background: #ffffff;
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  #tree img{
+    width: 180px;
+    height: 150px;
+  }
+
+  #mu-footer .mu-footer-area {
+    margin-top: 10%;
+    display: inline;
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  #mu-footer .mu-footer-area .mu-footer-social {
+    display: inline;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #mu-footer .mu-footer-area .mu-footer-social a {
+    background-color: #6c8f32;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.7em;
+    height: 40px;
+    line-height: 32px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  #mu-footer .mu-footer-area .mu-footer-social a:hover {
+    background: #fff;
+    color: #6c8f32;
+  }
+
+  #mu-footer .mu-footer-area .mu-footer-copyright {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #mu-footer .mu-footer-area .mu-footer-copyright p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
 
 }
