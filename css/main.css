@@ -306,12 +306,6 @@ TEAM SECTION
 ==============================================================
  */
 
-/* #team{
-  position: relative;
-  top: 5%;
-} */
-
-
 
  .row.heading h2 {
      color: #fff;
@@ -658,7 +652,7 @@ MEDIA QUERIES
   #objectives{
    position: relative;
    top: 7em;
-   height: 103vh;
+   height: 135vh;
    background: #6c8f32;
  }
 
@@ -675,23 +669,30 @@ MEDIA QUERIES
  #objectives .container{
    position: relative;
    top: 2%;
+   left: 8%;
    color: #ffffff;
  }
 
  #objectives .row{
-  margin-bottom: .7em;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-bottom: .7em;
  }
 
- #objectives .row .col-md-3{
+ #objectives .row .col-md-4{
    padding: 5px;
    color: #ffffff;
+ }
+
+ #objectives .row .col-md-6 .card{
+   height: 12.5em;
  }
 
 
  #objectives .card{
    background: #6c8f32;
    border: 1px solid #ffffff;
-   height: 5.5em;
+   height: 7.5em;
  }
 
  #objectives .card .card-title{
@@ -721,8 +722,8 @@ MEDIA QUERIES
 #map iframe{
   height: 200px;
   width: 90%;
-  margin-left: 35px;
-  margin-bottom: 35px;
+  margin-left: 0.7em;
+  margin-bottom: 2.5em;
 }
 
 .row.heading h2 {
@@ -870,32 +871,26 @@ ul{
 }
 
 
-#donors .container .col-md-6{
-  height: 100px;
-  margin-right: 100px;
-  text-align: center;
+#donors .container .col-md-6 img{
+  height: 10em;
+  width: 60%;
+  position: relative;
+  top: 2em;
+  right: 4em;
 }
 
-#donors .container .col-md-6 h3{
-  font-size: 20px;
-  text-align: center;
-}
-
-#donors .container .col-md-6 .fa{
-  font-size: 40px;
-  text-align: center;
-}
 
 #projects{
  position: relative;
  top: 8em;
- height: 60vh;
+ height: 180vh;
 }
+
 
 #projects h1{
  position: relative;
- top: 2em;
- padding-top: 70px;
+ top: .9em;
+ padding-top: 90px;
  text-align: center;
  font-size: 1.5em;
  font-weight: bold;
@@ -905,20 +900,29 @@ ul{
 #projects .container{
  position: relative;
  top: 5em;
- bottom: 7em;
- left: 1.8em;
+ margin-left: 2em;
 }
 
-#projects .container .row .col-md-6 img{
- height: 100px;
- width: 50%;
- margin-left: 60px;
+#projects .container .row{
+  display: grid;
+  grid-row-gap: .9em;
+}
+
+#projects .container .row
+.col-md-6 .card img{
+ height: 250px;
+ width: 550px;
+}
+
+#projects .container .row
+.col-md-6 .card{
+
 }
 
 #contact {
  position: relative;
  top: 12em;
- height: 80vh;
+ height: 60vh;
 }
 
 #contact  h1{
@@ -929,6 +933,27 @@ ul{
  font-size: 1.5em;
  font-weight: bold;
  color: #558303;
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row{
+  position: relative;
+  top: 3em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-form{
+  font-size: .9em;
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-widget{
+  font-size: .9em;
 }
 
 #mu-footer {
