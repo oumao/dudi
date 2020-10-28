@@ -132,6 +132,10 @@ MAIN SECTION
 =============================================================
  */
 
+#home img{
+  width: 100%;
+  height: 100vh;
+}
 main .text-position{
   position: absolute;
   top: 45%;
@@ -439,7 +443,7 @@ PROJECTS SECTION
  #projects{
   position: relative;
   top: 10em;
-  height: 100vh;
+  height: 110vh;
 }
 
 
@@ -455,7 +459,7 @@ PROJECTS SECTION
 
 #projects .container{
   position: relative;
-  top: 8em;
+  top: 6em;
   left: 1.2em;
 }
 
@@ -601,7 +605,7 @@ MEDIA QUERIES
     top: 35%;
     left: 15%;
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
   }
 
@@ -613,7 +617,7 @@ MEDIA QUERIES
     font-style: italic;
   }
 
-  main img{
+  #home img{
     width: 100%;
     height: 60vh;
   }
@@ -906,7 +910,7 @@ ul{
 #projects .container{
  position: relative;
  top: 5em;
- margin-left: 2em;
+ margin-left: 6em;
 }
 
 #projects .container .row{
@@ -917,7 +921,7 @@ ul{
 #projects .container .row
 .col-md-6 .card img{
  height: 250px;
- width: 550px;
+ width: 100%;
 }
 
 #projects .container .row
@@ -927,7 +931,7 @@ ul{
 
 #contact {
  position: relative;
- top: 12em;
+ top: 15em;
  height: 60vh;
 }
 
@@ -1011,6 +1015,7 @@ ul{
   display: inline;
   float: left;
   width: 100%;
+
 }
 #mu-footer .mu-footer-area .mu-footer-copyright p {
   font-family: "Open Sans", sans-serif;
