@@ -679,7 +679,7 @@ MEDIA QUERIES
  #objectives .container{
    position: relative;
    top: 2%;
-   left: 8%;
+   left: 2%;
    color: #ffffff;
  }
 
@@ -689,28 +689,34 @@ MEDIA QUERIES
    margin-bottom: .7em;
  }
 
- #objectives .row .col-md-4{
+ #objectives .row .col-md-6{
    padding: 5px;
    color: #ffffff;
  }
 
  #objectives .row .col-md-6 .card{
-   height: 12.5em;
+   width: 250px;
+   height: 7.5em;
  }
 
 
  #objectives .card{
    background: #6c8f32;
    border: 1px solid #ffffff;
-   height: 7.5em;
+   height: 9em;
+   width: 200px;
  }
+
+ #objectives .row .last_two .card{
+  height: 11.5em;
+}
 
  #objectives .card .card-title{
    font-size: 0.6em;
  }
 
  #objectives .card .card-text{
-   font-size: 0.5em;
+   font-size: 0.7em;
  }
 
  #location{
@@ -1026,13 +1032,13 @@ ul{
 
 }
 
-@media (max-width: 565px) {
+@media (max-width: 575px) {
   main .text-position{
     position: absolute;
-    top: 25%;
-    left: 15%;
+    top: 35%;
+    left: 8%;
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
   }
 
@@ -1044,22 +1050,23 @@ ul{
     font-style: italic;
   }
 
-  main img{
+  #home img{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
   }
 
   #aboutus{
     position: relative;
-    top: .2em;
+    top: .3em;
+    bottom: .5em;
     padding: 5px 0;
-    height: 55vh;
+    height: 60vh;
     text-align: center;
   }
 
 
   #aboutus h1{
-    padding-top: 35px;
+    padding-top: 60px;
     font-size: 1.5em;
     font-weight: bold;
     color: #558303;
@@ -1070,36 +1077,34 @@ ul{
   }
 
   #aboutus .aboutus-left{
-    padding: 5px;
-    margin-left: 5px;
+    padding: 10px;
+    margin-left: 10px;
     text-align: left;
   }
 
   #aboutus .aboutus-left h3{
     color: #558303;
-    font-size: .8em;
-    text-align: center;
+    font-size: 1em;
   }
 
   #aboutus .aboutus-left p{
     font-size: 0.6em;
-    text-align: center;
   }
 
 
   #objectives{
    position: relative;
    top: 7em;
-   height: 80vh;
+   height: 135vh;
    background: #6c8f32;
  }
 
  #objectives h1{
    position: relative;
    top: .4em;
-   padding-top: 20px;
+   padding-top: 30px;
    text-align: center;
-   font-size: 1em;
+   font-size: 1.5em;
    font-weight: bold;
    color: #ffffff;
  }
@@ -1107,61 +1112,73 @@ ul{
  #objectives .container{
    position: relative;
    top: 2%;
+   left: 2%;
    color: #ffffff;
  }
 
  #objectives .row{
-  margin-bottom: .6em;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-bottom: .7em;
  }
 
- #objectives .row .col-xs-12{
-   padding: 2px;
+ #objectives .row .col-md-6{
+   padding: 5px;
    color: #ffffff;
+ }
+
+ #objectives .row .col-md-6 .card{
+   width: 150px;
+   height: 8.5em;
  }
 
 
  #objectives .card{
    background: #6c8f32;
-   border: .6px solid #ffffff;
-   height: 5em;
+   border: 1px solid #ffffff;
+   height: 9em;
  }
+
+ #objectives .row .last_two .card{
+  height: 12em;
+}
 
  #objectives .card .card-title{
    font-size: 0.6em;
  }
 
  #objectives .card .card-text{
-   font-size: 0.5em;
+   font-size: 0.55em;
  }
 
  #location{
   position: relative;
-  top: 2em;
+  top: 5em;
   background: whitesmoke;
   text-align: center;
 }
 
 #location h1{
   position: relative;
-  top: .3em;
-  padding-top: 20px;
-  font-size: 1em;
+  top: .5em;
+  padding-top: 40px;
+  font-size: 2em;
   font-weight: bold;
   color: #558303;
 }
 
 #map iframe{
-  height: 100px;
-  width: 80%;
-  margin-left: 10px;
-  margin-bottom: 50px;
+  height: 200px;
+  width: 90%;
+  margin-left: 0.7em;
+  margin-bottom: 2.5em;
 }
 
 .row.heading h2 {
     color: #fff;
-    font-size: 32.32px;
+    font-size: 30px;
     line-height: 65px;
-    font-weight: 200;
+    font-weight: 150;
     text-align: center;
     margin: 0 0 20px;
     padding-bottom: 5px;
@@ -1180,8 +1197,8 @@ ul{
 
 .padding-lg {
  display: block;
- padding-top: 40px;
- padding-bottom: 40px;
+ padding-top: 25px;
+ padding-bottom: 25px;
 }
 
 .practice-area.padding-lg {
@@ -1194,6 +1211,7 @@ ul{
   margin-bottom: 8px;
   padding: 20px 5px;
 }
+
 .our-webcoderskull .cnt-block:hover {
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
     border: 0;
@@ -1201,14 +1219,14 @@ ul{
 .practice-area .inner h3{
  color:#3c3c3c;
  font-size: 14px;
- font-weight: 200;
+ font-weight: 150;
  font-family: 'Poppins', sans-serif;
  padding: 5px 0;
 }
 .practice-area .inner p{
     font-size: 8px;
- line-height: 12px;
- font-weight: 200;
+   line-height: 12px;
+   font-weight: 200;
 }
 .practice-area .inner img{
  display:inline-block;
@@ -1228,7 +1246,7 @@ ul{
    padding:30px 20px;
    text-align: center;
    border: 1px solid #d5d5d5;
-   margin: 0 55px 20px;
+   margin: 0 45px 10px;
 }
 .our-webcoderskull .cnt-block figure{
    width: 128px;
@@ -1282,13 +1300,13 @@ ul{
 
 #donors{
  position: relative;
- top: 2em;
- height: 40vh;
+ top: 5em;
+ height: 30vh;
 }
 
 #donors h1{
  position: relative;
- top: .6em;
+ top: .4em;
  padding-top: 60px;
  text-align: center;
  font-size: 1.5em;
@@ -1298,36 +1316,30 @@ ul{
 
 #donors .container{
  position: relative;
- top: 4em;
+ top: 1em;
 }
 
 
-#donors .container .col-md-6{
-  height: 100px;
-  margin-right: 100px;
-  text-align: center;
+#donors .container .col-md-6 img{
+  height: 10em;
+  width: 60%;
+  position: relative;
+  top: 2em;
+  right: 2em;
 }
 
-#donors .container .col-md-6 h3{
-  font-size: 20px;
-  text-align: center;
-}
-
-#donors .container .col-md-6 .fa{
-  font-size: 40px;
-  text-align: center;
-}
 
 #projects{
  position: relative;
  top: 8em;
- height: 60vh;
+ height: 150vh;
 }
+
 
 #projects h1{
  position: relative;
- top: 2em;
- padding-top: 70px;
+ top: .9em;
+ padding-top: 90px;
  text-align: center;
  font-size: 1.5em;
  font-weight: bold;
@@ -1336,89 +1348,83 @@ ul{
 
 #projects .container{
  position: relative;
- top: 5em;
- bottom: 7em;
- left: 1.8em;
+ top: 3em;
+ margin-left: auto;
+ margin-right: auto;
 }
 
-#projects .container .row .col-md-6 img{
- height: 100px;
- width: 50%;
- margin-left: 60px;
+#projects .container .row{
+  display: grid;
+  grid-row-gap: .9em;
+}
+
+#projects .container .row
+.col-md-6 .card img{
+ height: 150px;
+ width: 100%;
+}
+
+#projects .container .row
+.col-md-6 .card{
+  width: 90%;
+  height: 325px;
 }
 
 #contact {
  position: relative;
  top: 12em;
- height: 80vh;
+ height: 60vh;
 }
 
 #contact  h1{
  position: relative;
  top: .5em;
- padding-top: 90px;
+ padding-top: 50px;
  text-align: center;
  font-size: 1.5em;
  font-weight: bold;
  color: #558303;
 }
 
-#mu-footer {
+#contact .mu-contact-area
+.mu-contact-content
+.row{
   position: relative;
-  top: 40em;
-  background-color: #6c8f32;
-  display: inline;
-  float: left;
-  padding: 50px 0;
-  width: 100%;
-}
-#mu-footer .mu-footer-area {
-  display: inline;
-  float: left;
-  width: 100%;
-  text-align: center;
-}
-#mu-footer .mu-footer-area .mu-footer-social {
-  display: inline;
-  float: left;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
-}
-#mu-footer .mu-footer-area .mu-footer-social a {
-  background-color: #6c8f32;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.7em;
-  height: 40px;
-  line-height: 32px;
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
-  width: 50px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  top: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-#mu-footer .mu-footer-area .mu-footer-social a:hover {
-  background: #fff;
-  color: #6c8f32;
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-form{
+  font-size: .9em;
 }
 
-#mu-footer .mu-footer-area .mu-footer-copyright {
-  display: inline;
-  float: left;
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-form .btn{
   width: 100%;
 }
-#mu-footer .mu-footer-area .mu-footer-copyright p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.3em;
-  letter-spacing: 0.5px;
-  color: #fff;
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-widget{
+  position: relative;
+  top: 2.5em;
+  font-size: .7em;
 }
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-widget h3{
+  padding: 10px;
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: 15px;
+}
+
+
 
 }
 
