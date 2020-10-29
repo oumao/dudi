@@ -1429,6 +1429,404 @@ ul{
 }
 
 
+@media (max-width: 350px) {
+  main .text-position{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  main .moto{
+    color: #EEF467;
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  #home img{
+    width: 100%;
+    height: 40vh;
+  }
+
+  #aboutus{
+    position: relative;
+    top: .1em;
+    bottom: .5em;
+    padding: 3px 0;
+    height: 50vh;
+    text-align: center;
+  }
+
+
+  #aboutus h1{
+    padding-top: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #558303;
+  }
+
+
+  #aboutus .aboutus-left{
+    padding: 5px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #aboutus .aboutus-left h3{
+    color: #558303;
+    font-size: 1em;
+  }
+
+  #aboutus .aboutus-left p{
+    font-size: 0.6em;
+  }
+
+
+  #objectives{
+   position: relative;
+   top: 9.5em;
+   height: 165vh;
+   background: #6c8f32;
+ }
+
+ #objectives h1{
+   position: relative;
+   top: .4em;
+   padding-top: 30px;
+   text-align: center;
+   font-size: 1em;
+   font-weight: bold;
+   color: #ffffff;
+ }
+
+ #objectives .container{
+   position: relative;
+   top: 2%;
+   left: 2%;
+   color: #ffffff;
+ }
+
+ #objectives .row{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin-bottom: .7em;
+   margin-left: .1em;
+   margin-right: .1em;
+ }
+
+ #objectives .row .col-md-6{
+   padding: 5px;
+   color: #ffffff;
+ }
+
+ #objectives .row .col-md-6 .card{
+   width: 100%;
+   border: none;
+   height: 5em;
+ }
+
+
+ /* #objectives .card{
+
+   background: #6c8f32;
+   height: 9em;
+ } */
+
+ #objectives .row .last_two .card{
+  height: 7.5em;
+}
+
+ #objectives .card .card-title{
+   font-size: 0.7em;
+ }
+
+ #objectives .card .card-text{
+   font-size: 0.55em;
+ }
+
+ #location{
+  position: relative;
+  top: 5em;
+  background: whitesmoke;
+  text-align: center;
+}
+
+#location h1{
+  position: relative;
+  top: .5em;
+  padding-top: 40px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #558303;
+}
+
+#map iframe{
+  height: 150px;
+  width: 90%;
+  margin-left: 0.4em;
+  margin-bottom: 1em;
+}
+
+.row.heading h2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 65px;
+    font-weight: 150;
+    text-align: center;
+    margin: 0 0 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.heading.heading-icon {
+    display: block;
+}
+
+.padding-lg {
+ display: block;
+ padding-top: 15px;
+ padding-bottom: 25px;
+}
+
+.practice-area.padding-lg {
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+.practice-area .inner{
+  border: 1px solid #999999;
+  text-align: center;
+  margin-bottom: 8px;
+  padding: 20px 5px;
+}
+
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{
+ color:#3c3c3c;
+ font-size: 14px;
+ font-weight: 150;
+ font-family: 'Poppins', sans-serif;
+ padding: 5px 0;
+}
+.practice-area .inner p{
+    font-size: 8px;
+   line-height: 12px;
+   font-weight: 200;
+}
+.practice-area .inner img{
+ display:inline-block;
+}
+
+
+.our-webcoderskull{
+  background: #6c8f32;
+  position: relative;
+  top: 5em;
+
+}
+.our-webcoderskull .cnt-block{
+   float: left;
+   width: 90%;
+   background:#fff;
+   padding:20px 10px;
+   text-align: center;
+   border: 1px solid #d5d5d5;
+   margin: 0 15px 5px;
+}
+.our-webcoderskull .cnt-block figure{
+   width: 128px;
+   height: 128px;
+   border-radius: 100%;
+   display:inline-block;
+   margin-bottom: 18px;
+}
+.our-webcoderskull .cnt-block img{
+   width:128px;
+   height:128px;
+   border-radius:100%;
+}
+.our-webcoderskull .cnt-block h3{
+   color:#2a2a2a;
+   font-size: 15px;
+   font-weight: 300;
+   padding: 4px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+ color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+ color: #6c8f32;
+}
+.our-webcoderskull .cnt-block p{
+   color:#2a2a2a;
+   font-size: 13px;
+   line-height:20px;
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+ margin: 20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{
+  display:inline-block;
+  width:auto;
+  margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{
+   font-size: 16px;
+   color: #6c8f32;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{
+   color: #ffffff;
+   background: #6c8f32;
+   padding: 10px;
+}
+
+#donors{
+ position: relative;
+ top: 5em;
+ height: 15vh;
+}
+
+#donors h1{
+ position: relative;
+ top: .3em;
+ padding-top: 40px;
+ text-align: center;
+ font-size: .9em;
+ font-weight: bold;
+ color: #558303;
+}
+
+#donors .container{
+ position: relative;
+ top: 1em;
+}
+
+
+#donors .container .col-md-6 img{
+  height: 6em;
+  width: 60%;
+  position: relative;
+  top: 1em;
+}
+
+
+#projects{
+ position: relative;
+ top: 6em;
+ height: 150vh;
+}
+
+
+#projects h1{
+ position: relative;
+ top: .9em;
+ padding-top: 90px;
+ text-align: center;
+ font-size: 1em;
+ font-weight: bold;
+ color: #558303;
+}
+
+#projects .container{
+ position: relative;
+ top: 3em;
+ margin-left: auto;
+}
+
+
+#projects .container .row
+.col-md-6 .card img{
+ height: 150px;
+ width: 100%;
+}
+
+#projects .container .row
+.col-md-6 .card{
+  width: 100%;
+  height: 325px;
+  margin-left: -1.3em;
+}
+
+#projects .container .row
+.col-md-6 .card .card-body{
+  font-size: .6em;
+}
+
+#contact {
+ position: relative;
+ top: 10em;
+ height: 50vh;
+}
+
+#contact  h1{
+ position: relative;
+ top: .5em;
+ padding-top: 50px;
+ text-align: center;
+ font-size: 1em;
+ font-weight: bold;
+ color: #558303;
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row{
+  position: relative;
+  top: 3em;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-form{
+  font-size: .6em;
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-form .btn{
+  width: 100%;
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-widget{
+  position: relative;
+  top: 2.5em;
+  font-size: .6em;
+}
+
+#contact .mu-contact-area
+.mu-contact-content
+.row .mu-contact-widget h3{
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 15px;
+}
+
+
+
+}
+
+
+
 /*
 ======================================================
 Bigger Screen Media QUERIES
