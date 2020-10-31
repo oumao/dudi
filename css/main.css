@@ -600,6 +600,13 @@ MEDIA QUERIES
 ==============================================================================
  */
 @media (max-width: 785px) {
+
+  .navbar-brand img{
+    padding-top: 5px;
+    width: 100px;
+    height: 70px;
+  }
+
   main .text-position{
     position: absolute;
     top: 35%;
@@ -1033,6 +1040,14 @@ ul{
 }
 
 @media (max-width: 575px) {
+
+  .navbar-brand img{
+    padding-top: 5px;
+    width: 80px;
+    height: 50px;
+  }
+
+
   main .text-position{
     position: absolute;
     top: 35%;
@@ -1430,6 +1445,9 @@ ul{
 
 
 @media (max-width: 350px) {
+
+
+
   main .text-position{
     position: absolute;
     top: 25%;
