@@ -46,7 +46,8 @@ Navigation Bar
 }
 
 .navbar-brand img{
-  padding-top: 10px;
+  padding: 6px;
+
   width: 150px;
   height: 100px;
 }
@@ -160,16 +161,16 @@ ABOUT SECTION
  */
 #aboutus{
   position: relative;
-  top: 0.6em;
-  bottom: 1em;
-  padding: 10px 0;
+  top: 0.3em;
+  bottom: .6em;
+  padding: 5px 0;
   height: 100vh;
   text-align: center;
 }
 
 
 #aboutus h1{
-  padding-top: 3.5em;
+  padding-top: 3em;
   font-size: 2.5em;
   font-weight: bold;
   color: #558303;
