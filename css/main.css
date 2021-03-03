@@ -584,10 +584,25 @@ MEDIA QUERIES
 ==============================================================================
  */
 @media (max-width: 785px) {
-  .navbar-brand img {
-    padding-top: 5px;
+  /* #banner {
+    height: 3em;
+  } */
+
+  /* .navbar .navbar-brand {
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+
+  #banner .navbar-brand img {
+    position: absolute;
+    top: -2.5em;
+    left: 0;
     width: 100px;
-    height: 70px;
+    height: 100px;
   }
 
   main .text-position {
@@ -1004,10 +1019,12 @@ MEDIA QUERIES
 }
 
 @media (max-width: 575px) {
-  .navbar-brand img {
-    padding-top: 5px;
+  #banner .navbar-brand img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 80px;
-    height: 50px;
+    height: 80px;
   }
 
   main .text-position {
@@ -1383,6 +1400,15 @@ MEDIA QUERIES
 }
 
 @media (max-width: 350px) {
+  #banner .navbar-brand img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+
   main .text-position {
     position: absolute;
     top: 25%;
