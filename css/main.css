@@ -1021,7 +1021,7 @@ MEDIA QUERIES
 @media (max-width: 575px) {
   #banner .navbar-brand img {
     position: absolute;
-    top: 0;
+    top: -2.3em;
     left: 0;
     width: 80px;
     height: 80px;
@@ -1402,10 +1402,10 @@ MEDIA QUERIES
 @media (max-width: 350px) {
   #banner .navbar-brand img {
     position: absolute;
-    top: 0;
+    top: -0.35em;
     left: 0;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     position: relative;
   }
 
