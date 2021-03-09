@@ -893,10 +893,11 @@ MEDIA QUERIES
 
 
   #donors .container .row .col-md-6 img {
-    height: 6em;
-    width: 5em;
+    height: 4em;
+    width: 4em;
     position: relative;
     top: 2em;
+    right: .6em;
   }
 
   #projects {
