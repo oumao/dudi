@@ -292,7 +292,12 @@ DONORS SECTION
 #donors .container {
   position: relative;
   top: 30%;
-  left: 25%;
+  left: 0;
+}
+
+#donor .container .row .col-3 img{
+  width: 2em;
+  height: 5em;
 }
 
 /*
