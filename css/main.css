@@ -295,9 +295,9 @@ DONORS SECTION
   left: 0;
 }
 
-#donor .container .row .col-3 img{
-  width: 2em;
-  height: 5em;
+#donors .container .row .col-lg-3 img{
+  width: 10em;
+  height: 8em;
 }
 
 /*
@@ -891,12 +891,12 @@ MEDIA QUERIES
     top: 4em;
   }
 
-  #donors .container .col-md-6 img {
-    height: 10em;
-    width: 60%;
+
+  #donors .container .row .col-md-6 img {
+    height: 6em;
+    width: 5em;
     position: relative;
     top: 2em;
-    right: 4em;
   }
 
   #projects {
