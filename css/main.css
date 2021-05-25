@@ -32,6 +32,10 @@ Navigation Bar
   height: 7em;
 }
 
+nav {
+  height: 180px;
+}
+
 .navbar .navbar-brand {
   margin-top: 0;
   padding: 0;
@@ -42,11 +46,10 @@ Navigation Bar
 }
 
 #banner .navbar-brand img {
-  position: absolute;
-  top: -1em;
-  left: 1.7em;
-  width: 150px;
-  height: 150px;
+  position: relative;
+  top: -0.1em;
+  width: 100px;
+  height: 100px;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -295,7 +298,7 @@ DONORS SECTION
   left: 0;
 }
 
-#donors .container .row .col-lg-3 img{
+#donors .container .row .col-lg-3 img {
   width: 10em;
   height: 8em;
 }
@@ -891,13 +894,12 @@ MEDIA QUERIES
     top: 4em;
   }
 
-
   #donors .container .row .col-md-6 img {
     height: 4em;
     width: 4em;
     position: relative;
     top: 2.5em;
-    right: .6em;
+    right: 0.6em;
   }
 
   #projects {
